@@ -4,11 +4,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 
-class AgeException extends Exception {
-    AgeException(String message) {
-        super(message);
-    }
-}
 public class ExceptionHandling {
     //throw  and throws useage
     public static void function() throws NullPointerException {

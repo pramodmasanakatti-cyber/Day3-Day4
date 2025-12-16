@@ -1,6 +1,5 @@
-package org.example.ModernJava21Features;
+package org.example.ModernJava21Features.Records;
 
-record Person(String name,String email){}
 public class Records {
     public static void main(String[] args) {
         Person person=new Person("Pramod","pramod@gmail.com");
