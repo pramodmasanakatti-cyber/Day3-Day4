@@ -1,8 +1,7 @@
 package org.example.ExceptionHandling;
 
-class AgeException extends Exception {
-    AgeException(String message) {
-
+public class AgeException extends RuntimeException {
+    public AgeException(String message) {
         super(message);
     }
 }
